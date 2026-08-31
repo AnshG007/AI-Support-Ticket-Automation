@@ -1,0 +1,53 @@
+[
+  {
+    "ticket_id": "TKT-1001",
+    "customer_name": "Rahul Sharma",
+    "ticket": "I was charged twice for my Premium subscription this month. The amount is $29.99 each time. Please refund one of the duplicate charges."
+  },
+  {
+    "ticket_id": "TKT-1002",
+    "customer_name": "Priya Nair",
+    "ticket": "The mobile app crashes every time I open the Settings page. I see an error message that says 'Unexpected null pointer'. I have already tried reinstalling the app."
+  },
+  {
+    "ticket_id": "TKT-1003",
+    "customer_name": "Amit Verma",
+    "ticket": "I cannot log into my account. My email is amit.verma@email.com and I keep getting 'Invalid credentials' even after resetting my password twice."
+  },
+  {
+    "ticket_id": "TKT-1004",
+    "customer_name": "Sneha Patel",
+    "ticket": "I want to cancel my annual plan and request a refund for the unused months. I am switching to a competitor because your pricing went up."
+  },
+  {
+    "ticket_id": "TKT-1005",
+    "customer_name": "John Miller",
+    "ticket": "My order #ORD-78421 was supposed to arrive yesterday but the tracking still says 'In transit'. Can you check the delivery status and tell me when it will arrive?"
+  },
+  {
+    "ticket_id": "TKT-1006",
+    "customer_name": "Fatima Khan",
+    "ticket": "Could you please explain the difference between your Basic and Pro plans? I am not sure which one is right for a small team of 5 people."
+  },
+  {
+    "ticket_id": "TKT-1007",
+    "customer_name": "Carlos Rivera",
+    "ticket": "URGENT: My entire production dashboard is down and showing HTTP 503. Customers cannot place orders. This started 20 minutes ago after your latest update."
+  },
+  {
+    "ticket_id": "TKT-1008",
+    "customer_name": "Emily Chen",
+    "ticket": "I was billed $149.00 for an upgrade I never requested. There is only one charge so far, but I want it reversed immediately and confirmation that auto-renew is off."
+  },
+  {
+    "ticket_id": "TKT-1009",
+    "customer_name": "David Okonkwo",
+    "ticket": "I ordered a laptop case (order #ORD-79110) but received a phone case instead. Please arrange a replacement shipment as soon as possible."
+  },
+  {
+    "ticket_id": "TKT-1010",
+    "customer_name": "Ananya Iyer",
+    "ticket": "Please delete my account and all personal data associated with it. I no longer use the service and want to make sure my information is removed."
+  }
+]
+
