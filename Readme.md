@@ -58,7 +58,7 @@ Each stage has one job. For example, the response generator does **not** invent 
 
 | Concept           | Where Used                                      |
 | ----------------- | ----------------------------------------------- |
-| LLM               | All LLM chains via `ChatOpenAI`                 |
+| LLM               | All LLM chains via `ChatGroq`                 |
 | Prompt Templates  | Prompt files loaded into `ChatPromptTemplate`   |
 | Structured Output | Triage, case analysis, and resolution schemas   |
 | Routing           | Category-based selection with `RunnableBranch`  |
@@ -86,7 +86,7 @@ support-ticket-automation/
 │   ├── resolution_prompt.txt
 │   └── response_prompt.txt
 └── src/
-    ├── llm.py            # Create the OpenAI chat model
+    ├── llm.py            # Create the GROQ AI chat model
     ├── schemas.py        # Pydantic models
     ├── chains.py         # Triage, routing, analysis, resolution, response
     └── workflow.py       # Connects the stages together
@@ -128,8 +128,8 @@ Create your environment file:
 2. Add your OpenAI API key:
 
 ```text
-OPENAI_API_KEY=your_real_api_key_here
-OPENAI_MODEL=gpt-4o-mini
+GROQ_API_KEY=your_real_api_key_here
+GROQ_MODEL=groq_model
 ```
 
 ---
